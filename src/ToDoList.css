@@ -1,0 +1,93 @@
+/* ToDoList.css */
+.todo-container {
+      background: linear-gradient(to right, #3a6186, #89253e);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 400px;
+      margin: auto;
+      overflow: hidden;
+     }
+     
+     h2 {
+      text-decoration: underline;
+     }
+     
+     .task-list {
+      list-style: none;
+      padding: 0;
+     }
+     
+     .task-item {
+      background: linear-gradient(to right, #a855f7, #9333ea);
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      word-wrap: break-word;
+      overflow: hidden;
+     }
+     
+     .task-text {
+      flex-grow: 1;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+     }
+     
+     .task-text:hover {
+      white-space: normal;
+     }
+     
+     .task-buttons {
+      display: flex;
+      gap: 5px;
+     }
+     
+     .input-container {
+      display: flex;
+      margin-top: 10px;
+     }
+     
+     input {
+      flex-grow: 1;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+     }
+     
+     button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+     }
+     
+     .add {
+      background-color: #9333ea;
+      color: white;
+     }
+     
+     .delete {
+      background-color: #dc3545;
+      color: white;
+     }
+     
+     .edit {
+      background-color: #ffca28;
+     }
+     
+     .clear {
+      background-color: white;
+      color: black;
+      margin-top: 10px;
+     }
+     
+    
+    
+    
+    
